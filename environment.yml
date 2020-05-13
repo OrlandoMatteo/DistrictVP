@@ -1,0 +1,30 @@
+name: gisenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - shapely
+  - fiona
+  - geopandas
+  - geoplot
+  - pysal
+  - folium
+  - scikit-learn
+  - rasterio
+  - rasterstats
+  - geojson 
+  - pyepsg 
+  - seaborn  
+  - jupyter
+  - matplotlib
+  - mapclassify
+  - mplleaflet
+  - bokeh
+  - osmnx
+  - pip
+  - pip:
+    - contextily
+    - libpysal
+    - mgwr
+    - mapclassify
+    - esda
